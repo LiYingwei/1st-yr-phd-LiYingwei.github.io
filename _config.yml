@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://zhishuai.xyz"
+url: "https://yingwei.li"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Zhishuai Zhang
+title: Yingwei LI
 
 # Short description of your site
 description: Personal Homepage
@@ -29,7 +29,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/zhishuai.jpg"
+avatar: "/img/yingwei.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -40,10 +40,10 @@ avatar: "/img/zhishuai.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Zhishuai Zhang
-  email: "zhshuai.zhang@gmail.com"
-  github: bairdzhang    # eg. daattali
-  linkedin: zhishuai 
+  name: Yingwei LI
+  email: "yingwei.li@jhu.edu"
+  github: LiYingwei    # eg. daattali
+  #linkedin:
 
 # Select which links to show in the footer
 footer-links-active:
@@ -54,7 +54,7 @@ footer-links-active:
   google-plus: false
   github: true
   reddit: false
-  linkedin: true
+  linkedin: false
   xing: false
   stackoverflow: false
   snapchat: false
@@ -72,14 +72,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://zhishuai.xyz"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://yingwei.li"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-110954976-1"
+google_analytics: "UA-131560165-1"
 
 # Google Tag Manager ID
 #gtm: ""
