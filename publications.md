@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-You can also browse my <a href="http://liyw.me/scholar" target="_blank">Google Scholar profile</a>.
+You can also browse my <a href="http://scholar.liyw.me/" target="_blank">Google Scholar profile</a>.
 <br />
 
 #### Preprints
