@@ -12,11 +12,11 @@ use-site-title: true
 
 <script>
   function remove_tex() {
-    var cite1 = /~\\cite{[\w, ]+}/gi;
-    var cite2 = / \\cite{[\w, ]+}/gi;
+    var cite1 = /~\\cite{[\w, ]+}/g;
+    var cite2 = / \\cite{[\w, ]+}/g;
     var str = document.getElementById("input").value;
-    str.replace(cite1, '');
-    str.replace(cite2, "Alice and Bob");
+    str = str.replace(cite1, '');
+    str = str.replace(cite2, "Alice and Bob");
     document.getElementById("output").value = str;
   }
 </script>
