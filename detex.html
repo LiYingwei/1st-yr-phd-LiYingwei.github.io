@@ -1,0 +1,24 @@
+---
+layout: page
+title: Detex
+use-site-title: true
+---
+
+<textarea rows="50" cols="80" id="input"></textarea>
+
+<button type="button" onclick="remove_tex()">Detex!</button>
+
+<textarea rows="50" cols="80" id="output"></textarea>
+
+<script>
+  function remove_tex() {
+    var cite1 = /~\\cite{[\w, ]+}/gi;
+    var cite2 = / \\cite{[\w, ]+}/gi;
+    var str = document.getElementById("input").value;
+    str.replace(cite1, '');
+    str.replace(cite2, "Alice and Bob");
+    document.getElementById("output").value = str;
+  }
+</script>
+
+
